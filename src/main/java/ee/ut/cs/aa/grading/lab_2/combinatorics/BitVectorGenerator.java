@@ -1,5 +1,6 @@
 package ee.ut.cs.aa.grading.lab_2.combinatorics;
 
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -12,5 +13,5 @@ public interface BitVectorGenerator {
      *
      * @param length of generated bit vectors
      */
-    Set<boolean[]> bitVectors(int length);
+    Set<List<Boolean>> bitVectors(int length);
 }
