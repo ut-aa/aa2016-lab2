@@ -10,7 +10,7 @@ public interface BinaryTreeMeasurer {
     /**
      * Return the height of the given binary tree.
      *
-     * @param tree whose height should be measured
+     * @param tree whose height is measured
      * @return height of the given tree (0 if root has no children)
      * @throws IllegalArgumentException if tree is empty (null)
      */

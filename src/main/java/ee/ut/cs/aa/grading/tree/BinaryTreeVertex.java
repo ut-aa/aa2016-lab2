@@ -3,7 +3,7 @@ package ee.ut.cs.aa.grading.tree;
 /**
  * Vertex for binary tree representation that can hold arbitrary type of data.
  *
- * @param <Data> Type of data that is kept in the vertex.
+ * @param <Data> type of data that is kept in the vertex
  * @author Janno Siim
  */
 public class BinaryTreeVertex<Data> {
@@ -55,7 +55,7 @@ public class BinaryTreeVertex<Data> {
      * <p/>
      * Note that this method <b>does not check or set children of the parent node.</b> If you use this method you
      * <b>must</b> do this manually. To avoid this, use {@link #setLeftVertex(BinaryTreeVertex)} or
-     * {@link #setRightVertex(BinaryTreeVertex)} on a parent node, both of which automatically update child node.
+     * {@link #setRightVertex(BinaryTreeVertex)} on a parent node, both of which automatically update the child node.
      *
      * @param parent that will be set for this node
      */

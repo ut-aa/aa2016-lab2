@@ -13,12 +13,12 @@ public interface BobsledTeam {
      * 1) sum of weights of selected people is not greater than the given weight limit;<br/>
      * 2) sum pf ratings of selected people is the greatest among all possible teams of 4 that do not violate
      * previous constraint (if multiple possible teams have the same rating, you can choose any of them).
-     *
-     * If a legal team cannot be constructed (e.g. if all possible teams are over the weight limit or there are is
+     * <p>
+     * If a legal team cannot be constructed (e.g. if all possible teams are over the weight limit or there are fewer
      * than 4 people in the training team), return null.
      *
      * @param trainingTeam a set of people who can be selected into the team
-     * @param weightLimit an upper bound for sum of weights of team members
+     * @param weightLimit  an upper bound for sum of weights of team members
      * @return a set of 4 people selected from the training team
      */
     Set<TeamMember> selectTeam(Set<TeamMember> trainingTeam, double weightLimit);

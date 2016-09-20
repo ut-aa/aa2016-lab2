@@ -13,7 +13,7 @@ public interface BinaryTreeDataCounter<Data> {
      * Count how many copies of the given data exist in the tree.
      * <p/>
      * Implementations <b>must</b> use {@link Data#equals(Object)} method to check values for equality (i.e. do not use
-     * "node.data == data" to check if two values are equal).
+     * {@code node.data == data} to check if two values are equal).
      *
      * @param tree whose nodes will be checked
      * @param data that will be used to check nodes of the given tree
